@@ -41,10 +41,12 @@ const Curso = () => {
         />
       </div>
       <div className="ads-container">
-        <h2>{cursoData?.ads?.title}</h2>
-        <a href={cursoData?.linkPago} className="btn">
-          Inscripción
-        </a>
+        <section>
+          <h2>{cursoData?.ads?.title}</h2>
+          <a href={cursoData?.linkPago} className="btn">
+            Inscripción
+          </a>
+        </section>
         <img
           className="ad-image"
           src={`/src/assets/cursos/${cursoData?.ads?.image}`}
