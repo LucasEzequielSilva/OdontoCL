@@ -8,7 +8,7 @@ import Construction from './components/Construction'
 import Curso from './pages/Curso'
 //import 'react-toastifydist/ReactToastify.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <>
     <BrowserRouter>
       <Routes>
         <Route path='/'  element={<MainLayout/>}>
@@ -18,5 +18,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </Route>
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>,
+  </>,
 )
