@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import cursos from "../utils/cursos.json";
 import "../styles/curso.scss";
 import ReactPlayer from "react-player";
-import png from "../assets/images/png.png";
+import png from "/assets/images/png.png";
 import { Helmet } from "react-helmet";
 import SEO from "../components/SEO";
 const Curso = () => {
@@ -36,7 +36,7 @@ const Curso = () => {
         </section>
         <ReactPlayer
           className="hero-video"
-          url={`/src/assets/videos/${cursoData?.hero?.video}`}
+          url={`/assets/videos/${cursoData?.hero?.video}`}
           controls
         />
       </div>
@@ -49,7 +49,7 @@ const Curso = () => {
         </section>
         <img
           className="ad-image"
-          src={`/src/assets/cursos/${cursoData?.ads?.image}`}
+          src={`/assets/cursos/${cursoData?.ads?.image}`}
           alt="image"
         />
       </div>
@@ -71,7 +71,7 @@ const Curso = () => {
         <section>
           <h2>Nuestro Docente</h2>
           <p>Dr. Javier Ignacio Zamora Castro</p>
-          <img src={`/src/assets/images/javier-zamora.png`} alt="javier" />
+          <img src={`/assets/images/javier-zamora.png`} alt="javier" />
         </section>
       </div>
       <div className="promesa">

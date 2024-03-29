@@ -1,6 +1,6 @@
 import React from "react";
 import { ToastContainer, toast } from 'react-toastify';
-import image from '../../assets/images/newsletter-image.png'
+import image from '/assets/images/newsletter-image.png'
 
 const Newsletter = () => {
   const notify = (e) => {

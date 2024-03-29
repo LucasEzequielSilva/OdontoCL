@@ -1,5 +1,5 @@
 import React from "react";
-import studen_icon from "@assets/images/stundent.png";
+import studen_icon from "/assets/images/stundent.png";
 
 const Features = () => {
   return (
