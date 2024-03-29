@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Redirect } from "react-router-dom"; // Importa Redirect
 import cursos from "../utils/cursos.json";
 import "../styles/curso.scss";
 import ReactPlayer from "react-player";
@@ -18,6 +18,12 @@ const Curso = () => {
       });
     }
   }, []);
+
+  // Si no se proporciona el parámetro "curso", redirecciona al usuario a la página de inicio
+  if (!curso) {
+    return <Redirect to="/" />;
+  }
+
   return (
     <div className="curso-container">
       <SEO
