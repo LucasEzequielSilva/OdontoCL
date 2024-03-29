@@ -4,6 +4,8 @@ import cursos from "../utils/cursos.json";
 import "../styles/curso.scss";
 import ReactPlayer from "react-player";
 import png from "../assets/images/png.png";
+import { Helmet } from "react-helmet";
+import SEO from "../components/SEO";
 const Curso = () => {
   let { curso } = useParams();
   let [cursoData, setCursoData] = useState({});
@@ -18,6 +20,12 @@ const Curso = () => {
   }, []);
   return (
     <div className="curso-container">
+      <SEO
+        title={`Curso de ${cursoData?.name} | Odonto CL`}
+        description="Descubre cómo dominar la Protección radiológica."
+        name="Odonto CL"
+        type="Curso"
+      />
       <div className="hero-container">
         <section className="hero-description">
           <h1>{cursoData?.hero?.title}</h1>
@@ -58,8 +66,24 @@ const Curso = () => {
       </div>
       <div className="teachers-container">
         <img className="vector" src={png} alt="vector" />
-        <h2>Nuestro Docente</h2>
-        <p>Dr. Javier Ignacio Zamora Castro</p>
+        <section>
+          <h2>Nuestro Docente</h2>
+          <p>Dr. Javier Ignacio Zamora Castro</p>
+          <img src={`/src/assets/images/javier-zamora.png`} alt="javier" />
+        </section>
+      </div>
+      <div className="promesa">
+        <h2>{cursoData?.promesa?.title}</h2>
+        <ul className="items-wrapper">
+        {
+          cursoData?.promesa?.items.map(item=>(
+            <li>{item}</li>
+          ))
+        }
+        </ul>
+        <a href={cursoData?.linkPago} className="btn">
+            Inscribete al curso
+          </a>
       </div>
     </div>
   );

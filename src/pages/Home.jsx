@@ -8,11 +8,17 @@ import CursosSection from "../components/home/Cursos";
 import Features from "../components/home/Features";
 import Newsletter from "../components/home/Newsletter";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import SEO from "../components/SEO";
 const Home = () => {
   
   return (
     <>
-      <main>
+      <main>      
+      <SEO title='Home | Odonto CL'
+description='Eleva tu práctica al máximo nivel con nuestro curso intensivo Avalado por el Ministerio de Salud de Chile.'
+name='Odonto CL'
+type='Cursos'/>
         <div className="hero-container">
           <section className="hero">
             <h1>
