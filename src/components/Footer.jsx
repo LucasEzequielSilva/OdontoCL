@@ -2,14 +2,15 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="p-28">
       <div className="title-wrapper">
         <p>Odonto CL</p>
-        <ul>
-            <li>Inicio</li>
-            <li>YouTube</li>
-            <li>Blogs</li>
-            <li>Contacto</li>
+        <ul className="flex gap-4">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="https://www.youtube.com/@Odontocl">YouTube</a></li>
+            <li><a href="https://www.instagram.com/odonto_cl/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/odontocl.cl">Facebook</a></li>
+            <li><a href="https://wa.link/6870cn">Contacto</a></li>
         </ul>
       </div>
       <hr />
