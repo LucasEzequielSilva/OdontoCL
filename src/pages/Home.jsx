@@ -70,8 +70,7 @@ type='Cursos'/>
                 <i className="fa-brands fa-linkedin"></i>
               </div>
               <p>
-                Top Quailty dental treatment done by field experts, Highly
-                recommended for everyone
+              Formación odontológica de excelencia impartida por profesionales expertos en el área. Muy recomendada para todos los interesados en cursos de este ámbito.              
               </p>
             </div>
           </section>
