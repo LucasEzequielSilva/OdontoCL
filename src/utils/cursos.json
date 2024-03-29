@@ -1,0 +1,77 @@
+[
+    {
+        "id":1,
+        "name":"Protección Radiologica",
+        "href":"proteccion-radiologica",
+        "image":"proteccion-radiologica.jpg",
+        "title":"Descubre cómo dominar la Protección radiología",
+        "description":"Eleva tu práctica al máximo nivel con nuestro curso intensivo Avalado por el Ministerio de Salud de Chile",
+        "linkPago":"https://www.flow.cl/btn.php?token=sahad51",
+        "hero":{
+            "title":"Descubre cómo dominar la Protección radiología",
+            "description":"Eleva tu práctica al máximo nivel con nuestro curso intensivo Avalado por el Ministerio de Salud de Chile",
+            "video":"Radiología.mp4"
+        },
+        "contenidos":[
+            {
+                "id":1,
+                "name":"Física de las Radiaciones",
+                "description":"Física de las radiaciones ionizantes y generación de los rayos X"
+            },
+            {
+                "id":2,
+                "name":"Origen de las Radiaciones",
+                "description":"Origen de las radiaciones ionizantes, radiación y materia"
+            },
+            {
+                "id":3,
+                "name":"Unidades y Magnitudes",
+                "description":"Unidades y magnitudes utilizadas en las radiaciones ionizantes y detección de las radiaciones ionizantes"
+            },
+            {
+                "id":4,
+                "name":"Transporte",
+                "description":"Transporte de material radioactivo y efectos biológicos de la radiación ionizante"
+            },
+            {
+                "id":5,
+                "name":"Principios de la Protección",
+                "description":"Principios de la protección radiológica y prevención de accidentes"
+            },
+            {
+                "id":6,
+                "name":"Métodos de Protección",
+                "description":"Métodos y técnicas de protección radiológica y gestión de desechos radioactivos"
+            },
+            {
+                "id":7,
+                "name":"Dosimetría",
+                "description":"Medición de la exposición a la radiación de los rayos X, los rayos gamma y otros tipos de radiación"
+            },
+            {
+                "id":8,
+                "name":"Legislación vigente y evaluación",
+                "description":"Transporte de material radioactivo y efectos biológicos de la radiación ionizante"
+            }
+        ],
+        "teachers":
+            {
+                "name":"Dr. Javier Ignacio Zamora Castro",
+                "image":"",
+                "linkedin":""
+            }
+        ,
+        "ads":{
+            "title":"¡Domina la radiología y asegura un entorno seguro para tu equipo y tus pacientes!",
+            "image":"radiologica-ad.png"
+        },
+        "promesa":{
+            "title":"¿Por qué hacer un curso de Protección Radiológica?",
+            "items":[
+                "Para evitar multas y sanciones por incumplimiento de cualesquiera de los artículos del Decreto 3 y Decreto Supremo 133 del Ministerio de Salud.",
+                "Para cumplir con el Art. 5 del Decreto 113 del Ministerio de Salud.", "Para cumplir con el Art 21° del Decreto Supremo 40. 'El derecho a saber' del Ministerio del Trabajo y Previsión Social."
+            ]
+        }
+
+    }
+]

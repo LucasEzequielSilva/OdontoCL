@@ -1,7 +1,12 @@
 import React from "react";
+import { ToastContainer, toast } from 'react-toastify';
 import image from '../../assets/images/newsletter-image.png'
 
 const Newsletter = () => {
+  const notify = (e) => {
+    e.preventDefault()
+    return toast("Gracias por suscribirte!")
+  };
   return (
     <section className="newsletter-container">
       <div className="newsletter-wrapper">
@@ -32,8 +37,8 @@ const Newsletter = () => {
             <i className="fa-regular fa-envelope"></i>
             <input type="text" placeholder="Ingresa tu mejor correo" />
           </div>
-          <button className="btn" type="submit">
-            Submit
+          <button className="btn" type="submit" onClick={notify}>
+            Suscribete
           </button>
         </form>
       </div>

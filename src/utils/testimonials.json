@@ -1,0 +1,17 @@
+[
+    {
+        "name":"María Sánchez",
+        "image":"http://",
+        "comment":"El curso de odontología clínica superó mis expectativas. Aprendí técnicas avanzadas y obtuve una certificación reconocida. ¡Recomiendo este programa a todos los profesionales odontológicos!"
+    },
+    {
+        "name":"Juan Pérez",
+        "image":"http://",
+        "comment":"El curso de radiología me brindó una comprensión profunda de los principios radiológicos y técnicas de protección. ¡Una experiencia educativa invaluable para cualquier profesional de la salud!"
+    },
+    {
+        "name":"Carla Rodríguez",
+        "image":"http://",
+        "comment":"El programa de manejo de residuos fue esencial para mi práctica diaria. Aprendí a gestionar de manera eficiente y segura los desechos radiactivos, cumpliendo con los más altos estándares de seguridad ambiental."
+    }
+]

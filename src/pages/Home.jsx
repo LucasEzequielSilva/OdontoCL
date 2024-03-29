@@ -7,7 +7,9 @@ import CarouselContainer from "../components/home/CarouselContainer";
 import CursosSection from "../components/home/Cursos";
 import Features from "../components/home/Features";
 import Newsletter from "../components/home/Newsletter";
+import { Link } from "react-router-dom";
 const Home = () => {
+  
   return (
     <>
       <main>
@@ -36,15 +38,15 @@ const Home = () => {
               práctica segura y eficiente.
             </p>
             <div className="cta-container">
-              <button className="btn">Lista de Cursos</button>
+              <a href="#cursos" className="btn">Lista de Cursos</a>
               <button className="wp-action">
                 <div className="icon">
                   <i className="fa-brands fa-whatsapp"></i>
                 </div>
-                <div className="text-wrapper">
+                <Link to="https://wa.link/6870cn" className="text-wrapper">
                   <p>Contactanos</p>
                   <p>+569 7144-3828</p>
-                </div>
+                </Link>
               </button>
             </div>
             <div className="testimonial">
@@ -174,7 +176,7 @@ const Home = () => {
                 <p>Cumplimiento Normativo</p>
               </li>
             </ul>
-            <button className="btn">Cursos</button>
+            <a href="#cursos" className="btn">Cursos</a>
           </section>
         </div>
         <div className="ads-2">
@@ -189,7 +191,7 @@ const Home = () => {
               renombrados. Expande horizontes y construye conexiones valiosas
               para tu desarrollo profesional.
             </p>
-            <button className="btn">Cursos</button>
+            <a href="#cursos" className="btn">Cursos</a>
           </section>
           <div className="image-container">
             <img src={ads_2_image} alt="ads" />
