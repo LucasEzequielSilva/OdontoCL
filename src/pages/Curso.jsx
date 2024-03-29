@@ -36,7 +36,7 @@ const Curso = () => {
         </section>
         <ReactPlayer
           className="hero-video"
-          url={`dist/assets/videos/${cursoData?.hero?.video}`}
+          url={`/assets/videos/${cursoData?.hero?.video}`}
           controls
         />
       </div>
