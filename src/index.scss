@@ -96,6 +96,9 @@ main {
         font-size: 2rem;
         position: relative;
         font-weight: 600;
+        @media screen and (height <= 720px) {
+          font-size: 1.5rem!important;
+        }
         svg {
           position: absolute;
           bottom: 0;
@@ -113,7 +116,7 @@ main {
       .cta-container {
         width: 100%;
         display: flex;
-        justify-content: space-b;
+        justify-content: space-between;
         gap: 1rem;
         flex-wrap: wrap;
         .wp-action {
@@ -225,6 +228,11 @@ main {
         position: relative;
         z-index: 1;
         right: 7.5%;
+        @media screen and (height <= 720px) {
+          height: 100%!important;
+          max-width: 30rem!important;
+          object-fit: contain;
+        }
       }
       .vector {
         position: absolute;

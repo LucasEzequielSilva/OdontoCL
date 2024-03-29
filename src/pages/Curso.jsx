@@ -78,8 +78,8 @@ const Curso = () => {
         <h2>{cursoData?.promesa?.title}</h2>
         <ul className="items-wrapper">
         {
-          cursoData?.promesa?.items.map(item=>(
-            <li>{item}</li>
+          cursoData?.promesa?.items.map((item, i)=>(
+            <li key={i}>{item}</li>
           ))
         }
         </ul>
