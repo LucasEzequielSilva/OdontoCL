@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
       <hr />
       <div>
-        <p>Todos los derechos reservados ® odentocl.cl  | Aplican términos y condiciones!</p>
+        <p>Todos los derechos reservados ® odontocl.cl  | Aplican términos y condiciones!</p>
       </div>
     </footer>
   );
