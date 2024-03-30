@@ -38,7 +38,7 @@ const Newsletter = () => {
             <input type="text" placeholder="Ingresa tu mejor correo" />
           </div>
           <button className="btn" type="submit" onClick={notify}>
-            Suscribete
+            Suscríbete
           </button>
         </form>
       </div>
