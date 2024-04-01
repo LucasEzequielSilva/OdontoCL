@@ -218,7 +218,7 @@ main {
         }
         @media screen and (width >= 768px) {
           width: 374px;
-          height: 117px;
+         min-height: 117px;
           gap: 5px;
         }
       }
