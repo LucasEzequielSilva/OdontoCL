@@ -12,7 +12,7 @@ const Curso = () => {
   const [endDate, setEndDate] = useState(null); // Store course end date
   const [remainingTime, setRemainingTime] = useState(null); // Store remaining time
   const video = useRef();
-  console.log()
+  console.log();
   const { curso } = useParams();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,7 +22,7 @@ const Curso = () => {
 
       // Parse launch date and set endDate
       const parsedEndDate = parseDateString(selectedCurso?.lanzamiento);
-      
+
       setEndDate(parsedEndDate);
     }
   }, [curso]);
@@ -68,7 +68,7 @@ const Curso = () => {
 
     return new Date(year, month, day);
   };
-  
+
   return (
     <div className="curso-container">
       <SEO
@@ -81,17 +81,37 @@ const Curso = () => {
         <div className="contador">
           {remainingTime ? (
             <div>
-              <span>{remainingTime.days}<br/> <p>dias</p></span><p>:</p>
-              <span>{remainingTime.hours}<br/><p>horas</p></span><p>:</p>
-              <span>{remainingTime.minutes}<br/><p>minutos</p></span><p>:</p>
-              <span>{remainingTime.seconds}<br/><p>segundos</p></span>
+              <span>
+                {remainingTime.days}
+                <br /> <p>dias</p>
+              </span>
+              <p>:</p>
+              <span>
+                {remainingTime.hours}
+                <br />
+                <p>horas</p>
+              </span>
+              <p>:</p>
+              <span>
+                {remainingTime.minutes}
+                <br />
+                <p>minutos</p>
+              </span>
+              <p>:</p>
+              <span>
+                {remainingTime.seconds}
+                <br />
+                <p>segundos</p>
+              </span>
             </div>
           ) : (
             <span>¡El curso ya ha comenzado!</span>
           )}
-        <div className="text-info-curso">
-        Precio Lanzamiento 2024 | Acceso a curso de<b>{cursoData?.name}</b>por una inversión única de ${cursoData && cursoData?.precio?.toLocaleString()} CLP.
-        </div>
+          <div className="text-info-curso">
+            Precio Lanzamiento 2024 | Acceso a curso de<b>{cursoData?.name}</b>
+            por una inversión única de $
+            {cursoData && cursoData?.precio?.toLocaleString()} CLP.
+          </div>
         </div>
       </div>
       <div className="hero-container">
@@ -134,9 +154,9 @@ const Curso = () => {
             </div>
           ))}
         </div>
-          <a className="btn" download href="/assets/PROTECCIÓNRADIOLÓGICA.pdf">
-            Descargar programa
-          </a>
+        <a className="btn" download href="/assets/PROTECCIÓNRADIOLÓGICA.pdf">
+          Descargar programa
+        </a>
       </div>
       <div className="teachers-container">
         <img className="vector" src={png} alt="vector" />
@@ -158,7 +178,7 @@ const Curso = () => {
           ))}
         </ul>
         <a href={cursoData?.linkPago} className="btn">
-          Inscribete al curso
+          Inscríbete al curso
         </a>
       </div>
     </div>
