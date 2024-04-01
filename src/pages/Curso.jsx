@@ -79,17 +79,17 @@ const Curso = () => {
       <div className="contador-container">
         <div className="contador">
           {remainingTime ? (
-            <>
+            <div>
               <span>{remainingTime.days}<br/> <p>dias</p></span><p>:</p>
               <span>{remainingTime.hours}<br/><p>horas</p></span><p>:</p>
               <span>{remainingTime.minutes}<br/><p>minutos</p></span><p>:</p>
               <span>{remainingTime.seconds}<br/><p>segundos</p></span>
-            </>
+            </div>
           ) : (
             <span>¡El curso ya ha comenzado!</span>
           )}
         <div className="text-info-curso">
-        Precio Lanzamiento 2024 | Acceso a <b>{cursoData?.name}</b> <br />por una inversión única de ${cursoData?.precio} USD.
+        Precio Lanzamiento 2024 | Acceso a <b>{cursoData?.name}</b>por una inversión única de ${cursoData?.precio} USD.
         </div>
         </div>
       </div>
