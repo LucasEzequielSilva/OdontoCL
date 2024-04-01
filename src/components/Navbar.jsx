@@ -39,9 +39,9 @@ export default function Example() {
                   <p>ODONTO CL</p>
                 <div className="hidden sm:ml-6 sm:block md:left-1/2 md:absolute md:-translate-x-1/2">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
+                    {navigation.map((item, index) => (
                       <Link
-                        key={item.name}
+                        key={index}
                         to={item.href}
                         className={classNames(
                           item.current
@@ -62,9 +62,9 @@ export default function Example() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
-              {navigation.map((item) => (
+              {navigation.map((item, index) => (
                 <Disclosure.Button
-                  key={item.name}
+                  key={index}
                   as="a"
                   href={item.href}
                   className={classNames(

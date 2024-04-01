@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="title-wrapper">
         <p>Odonto CL</p>
         <ul className="flex gap-4">
-            <li><a href="/">Inicio</a></li>
+            <li><Link to="/">Inicio</Link></li>
             <li><a href="https://www.youtube.com/@Odontocl">YouTube</a></li>
             <li><a href="https://www.instagram.com/odonto_cl/">Instagram</a></li>
             <li><a href="https://www.facebook.com/odontocl.cl">Facebook</a></li>

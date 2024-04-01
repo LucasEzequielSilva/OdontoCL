@@ -16,11 +16,47 @@ h2 {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
+  .contador-container{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: var(--secondary);
+    border-bottom: 2px solid var(--accent);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: var(--heading);
+    .contador{
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+      color: var(--heading);
+      span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2.2rem;
+        color: var(--heading);
+        p{
+          font-size: 1rem;
+        color: var(--heading);
+        }
+      }
+      .text-info-curso{
+        font-size: 13px;
+      }
+    }
+  }
   .hero-container {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 5rem 1rem;
+
     @media screen and (width >= 992px) {
       flex-direction: row;
     }
@@ -54,7 +90,12 @@ h2 {
       overflow: hidden;
       max-width: 828px;
       align-self: center;
-
+      padding: 2.6rem;
+      background-color: var(--secondary);
+      border-radius: 1rem;
+      video{
+        border-radius: .5rem;
+      }
     }
   }
   .ads-container {

@@ -13,8 +13,8 @@ const Cursos = () => {
         </div>
         <div className="cards-container flex gap-4 justify-center">
           {
-            data.length > 0 && data.map((curso)=>(
-              <Card curso={curso}/>
+            data.length > 0 && data.map((curso, index)=>(
+              <Card curso={curso} key={index}/>
             ))
           }
         </div>

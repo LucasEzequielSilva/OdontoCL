@@ -7,16 +7,9 @@ import MainLayout from './Layout/MainLayout'
 import Construction from './components/Construction'
 import Curso from './pages/Curso'
 //import 'react-toastifydist/ReactToastify.css';
+import App from './components/App'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/'  element={<MainLayout/>}>
-          <Route path='' element={<Home/>} />
-          <Route path='*' element={<Construction/>}/>
-          <Route path='/cursos/:curso' element={<Curso/>}/>
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  </>,
+    <App/>
+  </>
 )

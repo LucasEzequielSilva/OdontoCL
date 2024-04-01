@@ -3,6 +3,8 @@
 @tailwind utilities;
 @import "./styles/mixin.scss";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://db.onlinewebfonts.com/c/27cb2381f8e348c531e19a16b9921082?family=Suisse+Works+Bold"); 
+
 :root {
   --primary: #1376f8;
   --secondary: #e6f6fe;
@@ -23,6 +25,12 @@ h4,
 h5,
 h6 {
   color: var(--heading);  
+}
+h1,
+h2,
+h3{
+  font-family: "Suisse Works Bold"; 
+  
 }
 h2 {
   font-size: 36px;
@@ -86,7 +94,7 @@ main {
   .hero-container{
     display: flex;
     flex-direction: column;
-    min-height: 90vh;
+    min-height: 90vh;    
     .hero {
       padding: 20px;
       display: flex;

@@ -4,9 +4,11 @@
         "name":"Protección Radiológica",
         "href":"proteccion-radiologica",
         "image":"proteccion-radiologica.jpg",
-        "title":"Descubre cómo dominar la Protección radiológica",
+        "title":"Descubre cómo dominar la Protección Radiológica",
         "description":"Eleva tu práctica al máximo nivel con nuestro curso intensivo Avalado por el Ministerio de Salud de Chile",
         "linkPago":"https://www.flow.cl/btn.php?token=sahad51",
+        "lanzamiento": "16/04/2024",
+        "precio":160,
         "hero":{
             "title":"Descubre cómo dominar la Protección radiológica",
             "description":"Eleva tu práctica al máximo nivel con nuestro curso intensivo Avalado por el Ministerio de Salud de Chile",
@@ -58,7 +60,8 @@
             {
                 "name":"Dr. Javier Ignacio Zamora Castro",
                 "image":"javier-zamora.png",
-                "linkedin":""
+                "linkedin":"",
+                "especialidad":"Cirujano Dentista, Especialista en Imagenología Oral y Maxilofacial"
             }
         ,
         "ads":{
