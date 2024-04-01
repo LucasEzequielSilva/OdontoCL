@@ -190,6 +190,12 @@ h2 {
         }
       }
     }
+    .btn{
+      margin-top: 2rem;
+      @media screen and (width >= 1200px){
+        max-width: 1200px;
+      }
+    }
     @media screen and (width >= 428px) {
       .content-wrapper {
         flex-direction: column;
