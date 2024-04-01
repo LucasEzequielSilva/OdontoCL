@@ -110,7 +110,7 @@ const Curso = () => {
           <div className="text-info-curso">
             Precio Lanzamiento 2024 | Acceso a curso de<b>{cursoData?.name}</b>
             por una inversión única de $
-            {cursoData && cursoData?.precio?.toLocaleString()} CLP.
+            {cursoData && cursoData?.precio?.toLocaleString()} CLP. (valor de preventa hasta el {cursoData?.lanzamiento})
           </div>
         </div>
       </div>
