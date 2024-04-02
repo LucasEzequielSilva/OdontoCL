@@ -11,6 +11,7 @@ import Newsletter from "../components/home/Newsletter";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import SEO from "../components/SEO";
+
 const Home = () => {
   
   return (
@@ -60,19 +61,18 @@ type='Cursos'/>
               <div className="header">
                 <div className="user">
                   <img
-                    src="https://i.pinimg.com/originals/0f/9a/6f/0f9a6f86e2806b20e766fd3ae2897257.jpg"
+                    src="/assets/images/cofounder.jpeg"
                     alt="user"
                   />
                   <div className="text-wrapper">
-                    <p>Thomas daniel</p>
-                    <p>Sr Dental</p>
+                    <p>Mirian Viloria</p>
+                    <p>Co-Fundadora</p>
                   </div>
                 </div>
-                <i className="fa-brands fa-linkedin"></i>
+                {/* <i className="fa-brands fa-linkedin"></i> */}
               </div>
               <p>
-              Formación odontológica de excelencia impartida por profesionales expertos en el área. Muy recomendada para todos los interesados en cursos de este ámbito.              
-              </p>
+              Odonto emerge del sueño de transformar no solo la práctica odontológica, sino también el horizonte educativo, donde cada integrante fusiona sus fuerzas con un propósito común.              </p>
             </div>
           </section>
           <div className="image-hero">
