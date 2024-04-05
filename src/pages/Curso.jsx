@@ -38,7 +38,7 @@ const Curso = () => {
 
         if (difference > 0) {
           const remainingTimeObject = {
-            days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+            days: Math.floor(1+ difference / (1000 * 60 * 60 * 24)),
             hours: Math.floor(
               (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
             ),
@@ -110,7 +110,7 @@ const Curso = () => {
           <div className="text-info-curso">
             Precio Lanzamiento 2024 | Acceso a curso de<b>{cursoData?.name}</b>
             por una inversión única de $
-            {cursoData && cursoData?.precio?.toLocaleString()} CLP. (valor de preventa hasta el {cursoData?.lanzamiento})
+            {cursoData && cursoData?.precio?.toLocaleString()} CLP. (valor de preventa hasta el {(cursoData?.lanzamiento)})
           </div>
         </div>
       </div>
