@@ -9,9 +9,11 @@ import Curso from './pages/Curso'
 //import 'react-toastifydist/ReactToastify.css';
 import App from './components/App'
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
     <App/>
+    <SpeedInsights/>
     <Analytics />
   </>
 )

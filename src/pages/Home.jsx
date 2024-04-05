@@ -5,7 +5,7 @@ import porque_aprender from "/assets/images/porque-aprender-image.png";
 import ads_2_image from "/assets/images/ads_2_image.png";
 import CarouselContainer from "../components/home/CarouselContainer";
 import CursosSection from "../components/home/Cursos";
-import zoomImage from '/assets/images/zoom.png'
+import zoomImage from "/assets/images/zoom.png";
 import Features from "../components/home/Features";
 import Newsletter from "../components/home/Newsletter";
 import { Link } from "react-router-dom";
@@ -13,14 +13,15 @@ import { Helmet } from "react-helmet";
 import SEO from "../components/SEO";
 
 const Home = () => {
-  
   return (
     <>
-      <main>      
-      <SEO title='Home | Odonto CL'
-description='Eleva tu práctica al máximo nivel con nuestro curso intensivo Avalado por el Ministerio de Salud de Chile.'
-name='Odonto CL'
-type='Cursos'/>
+      <main>
+        <SEO
+          title="Home | Odonto CL"
+          description="Eleva tu práctica al máximo nivel con nuestro curso intensivo Avalado por el Ministerio de Salud de Chile."
+          name="Odonto CL"
+          type="Cursos"
+        />
         <div className="hero-container">
           <section className="hero">
             <h1>
@@ -46,7 +47,9 @@ type='Cursos'/>
               práctica segura y eficiente.
             </p>
             <div className="cta-container">
-              <a href="#cursos" className="btn">Lista de Cursos</a>
+              <a href="#cursos" className="btn">
+                Lista de Cursos
+              </a>
               <button className="wp-action">
                 <div className="icon">
                   <i className="fa-brands fa-whatsapp"></i>
@@ -60,19 +63,18 @@ type='Cursos'/>
             <div className="testimonial">
               <div className="header">
                 <div className="user">
-                  <img
-                    src="/assets/images/cofounder.jpeg"
-                    alt="user"
-                  />
+                  <img src="/assets/images/cofounder.jpeg" alt="user" />
                   <div className="text-wrapper">
                     <p>Mirian Viloria</p>
                     <p>Co-Fundadora</p>
                   </div>
                 </div>
-                {/* <i className="fa-brands fa-linkedin"></i> */}
               </div>
               <p>
-              Odonto emerge del sueño de transformar no solo la práctica odontológica, sino también el horizonte educativo, donde cada integrante fusiona sus fuerzas con un propósito común.              </p>
+                Odonto emerge del sueño de transformar no solo la práctica
+                odontológica, sino también el horizonte educativo, donde cada
+                integrante fusiona sus fuerzas con un propósito común.{" "}
+              </p>
             </div>
           </section>
           <div className="image-hero">
@@ -182,7 +184,9 @@ type='Cursos'/>
                 <p>Cumplimiento Normativo</p>
               </li>
             </ul>
-            <a href="#cursos" className="btn">Cursos</a>
+            <a href="#cursos" className="btn">
+              Cursos
+            </a>
           </section>
         </div>
         <div className="ads-2">
@@ -194,16 +198,19 @@ type='Cursos'/>
             <p>
               Únete a una comunidad de profesionales para colaborar y aprender
               juntos. Enriquece tu carrera con la sabiduría de docentes
-              renombrados. Expande horizontes y construye una networking valiosa.
+              renombrados. Expande horizontes y construye una networking
+              valiosa.
             </p>
-            <a href="#cursos" className="btn">Cursos</a>
+            <a href="#cursos" className="btn">
+              Cursos
+            </a>
           </section>
           <div className="image-container">
             <img src={zoomImage} alt="ads" />
             <div className="backdrop"></div>
           </div>
         </div>
-        <CarouselContainer />
+        {/* <CarouselContainer /> */}
         <CursosSection />
       </main>
     </>
