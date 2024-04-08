@@ -6,6 +6,10 @@ import ReactPlayer from "react-player";
 import png from "/assets/images/png.png";
 import { Helmet } from "react-helmet";
 import SEO from "../components/SEO";
+import { FaWhatsapp } from "react-icons/fa";
+
+
+
 const Curso = () => {
   const [cursoData, setCursoData] = useState(null); // Initialize as null
   const [intervalId, setIntervalId] = useState(null);
@@ -134,8 +138,12 @@ const Curso = () => {
           url={`/assets/videos/${cursoData?.hero?.video}`}
           controls
           ref={video}
+          
         />
+        
       </div>
+      <a className="btn wazp" href="https://wa.me/56954988828"> <FaWhatsapp  /> Para consultar cualquier duda haz click aquí y hablemos</a>
+      
       <div className="ads-container">
         <section>
           <h2>{cursoData?.ads?.title}</h2>
