@@ -110,7 +110,7 @@ const Curso = () => {
           <div className="text-info-curso">
             Precio Lanzamiento 2024 | Acceso a curso de<b>{cursoData?.name}</b>
             por una inversión única de $
-            {cursoData && cursoData?.precio?.toLocaleString()} CLP. (valor de preventa hasta el 9 de abril de 2024)
+            {cursoData && cursoData?.precio?.toLocaleString()} CLP.
           </div>
         </div>
       </div>
@@ -121,6 +121,10 @@ const Curso = () => {
           <a href={cursoData?.linkPago} className="btn">
             Inscríbete al curso
           </a>
+          <a href={cursoData?.linkPagoPromo} className="btn">
+            Promo Grupal
+          </a>
+          <p>{cursoData?.hero?.descriptionpromo}</p>
         </section>
         <ReactPlayer
           className="hero-video"
