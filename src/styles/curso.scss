@@ -4,6 +4,8 @@ h2 {
     font-size: 3rem !important;
   }
 }
+
+
 .btn {
   flex-grow: 1;
   max-width: none;
@@ -11,6 +13,9 @@ h2 {
     flex-grow: 0;
   }
 }
+
+
+
 .curso-container {
   width: 100%;
   min-height: 90vh;
@@ -73,9 +78,12 @@ h2 {
     @media screen and (width >= 1200px) {
     justify-content: space-evenly;
     align-items: center;
-        .btn{
+        
+    
+    .btn{
             max-width: 477px;
         }
+       
     }
     .hero-description {
       display: flex;
@@ -120,12 +128,15 @@ h2 {
       section{
         max-width: 880px;
         align-self: center;
+       
+        
         .btn{
             max-width: 240px;
             align-self: center;
             padding-left: 3rem;
             padding-right: 3rem;
         }
+        
     }
     .ad-image{
      max-width: 880px;   
@@ -194,12 +205,16 @@ h2 {
         }
       }
     }
+
+  
+
     .btn{
       margin-top: 2rem;
       @media screen and (width >= 1200px){
         max-width: 1200px;
       }
     }
+    
     @media screen and (width >= 428px) {
       .content-wrapper {
         flex-direction: column;
@@ -249,6 +264,9 @@ h2 {
     @media screen and (width >= 1200px) {
         text-align: center;
     }
+
+    
+
     .btn {
       flex-grow: 0;
       width: 100%;
@@ -257,6 +275,7 @@ h2 {
         align-self: center;
       }
     }
+   
     .items-wrapper {
       display: flex;
       flex-direction: column;
@@ -269,4 +288,12 @@ h2 {
       }
     }
   }
+}
+
+.btnn {
+
+  flex-grow: 1;
+  padding: 3rem;
+  font-size: 3rem;
+  margin-top: 3rem;
 }

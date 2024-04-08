@@ -158,8 +158,8 @@ const Curso = () => {
             </div>
           ))}
         </div>
-        <a className="btn" download href="/assets/PROTECCIÓNRADIOLÓGICA.pdf">
-          Descargar programa
+        <a className="btn btnn" download href="/assets/PROTECCIÓNRADIOLÓGICA.pdf">
+          Descargar Programa
         </a>
       </div>
       <div className="teachers-container">
