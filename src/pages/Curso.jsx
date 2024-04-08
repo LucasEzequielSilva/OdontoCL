@@ -6,7 +6,7 @@ import ReactPlayer from "react-player";
 import png from "/assets/images/png.png";
 import { Helmet } from "react-helmet";
 import SEO from "../components/SEO";
-import { FaWhatsapp } from "react-icons/fa";
+
 
 
 
