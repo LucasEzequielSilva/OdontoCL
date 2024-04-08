@@ -141,9 +141,11 @@ const Curso = () => {
           
         />
         
+      </div >
+
+      <div className="btn wazp">
+      <img className="imwa" src="/assets/images/wpimg.png" /> <a  href="https://wa.me/56954988828">  Para consultar cualquier duda haz click aquí y hablemos</a>
       </div>
-      <a className="btn wazp" href="https://wa.me/56954988828"> <FaWhatsapp  /> Para consultar cualquier duda haz click aquí y hablemos</a>
-      
       <div className="ads-container">
         <section>
           <h2>{cursoData?.ads?.title}</h2>

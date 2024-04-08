@@ -302,9 +302,15 @@ h2 {
 }
 
 .wazp {
+  flex-direction: row;
   font-size: .7rem;
-  padding: 1rem 2rem;
+  padding: .1rem .1rem;
   margin-left: 4rem;
   margin-right: 4rem;
   margin-bottom: 4rem;
+}
+
+.imwa {
+  max-height: 100%;
+  max-width: 100%;
 }
