@@ -77,7 +77,7 @@ const Curso = () => {
     <div className="curso-container">
       <SEO
         title={`Curso de ${cursoData?.name} | Odonto CL`}
-        description="Descubre cómo dominar la Protección radiológica."
+        description="Descubre Cómo Dominar la Protección Radiológica."
         name="Odonto CL"
         type="Curso"
       />
