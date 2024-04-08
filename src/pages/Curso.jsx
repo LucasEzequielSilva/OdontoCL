@@ -125,6 +125,9 @@ const Curso = () => {
             Promo Grupal
           </a>
           <p>{cursoData?.hero?.descriptionpromo}</p>
+          <a className="btn" download href="/assets/PROTECCIÓNRADIOLÓGICA.pdf">
+          Descargar Programa
+        </a>
         </section>
         <ReactPlayer
           className="hero-video"
