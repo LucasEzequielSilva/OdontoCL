@@ -77,7 +77,7 @@ const Curso = () => {
         name="Odonto CL"
         type="Curso"
       />
-      <div className="contador-container">
+      <div className="contador-container px-8">
         <div className="contador">
           {remainingTime ? (
             <div>

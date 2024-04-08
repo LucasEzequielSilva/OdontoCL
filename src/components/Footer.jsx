@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="p-28">
       <div className="title-wrapper">
         <p>Odonto CL</p>
-        <ul className="flex gap-4">
+        <ul className="flex gap-4 flex-wrap">
             <li><Link to="/">Inicio</Link></li>
             <li><a href="https://www.youtube.com/@Odontocl">YouTube</a></li>
             <li><a href="https://www.instagram.com/odonto_cl/">Instagram</a></li>
