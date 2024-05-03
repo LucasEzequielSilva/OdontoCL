@@ -25,7 +25,7 @@ const Home = () => {
         <div className="hero-container">
           <section className="hero">
             <h1>
-              Preparate para la mejor Experiencia Educativa en ODONTOLOGÍA!
+              ¡Prepárate para la mejor Experiencia Educativa en ODONTOLOGÍA!
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="240"
@@ -55,7 +55,7 @@ const Home = () => {
                   <i className="fa-brands fa-whatsapp"></i>
                 </div>
                 <Link to="https://wa.link/6870cn" className="text-wrapper">
-                  <p>Contactanos</p>
+                  <p>Contáctanos</p>
                   <p>+569 7144-3828</p>
                 </Link>
               </button>

@@ -87,7 +87,7 @@ const Curso = () => {
             <div>
               <span>
                 {remainingTime.days}
-                <br /> <p>dias</p>
+                <br /> <p>días</p>
               </span>
               <p>:</p>
               <span>
@@ -159,6 +159,20 @@ const Curso = () => {
           alt="image"
         />
       </div>
+
+      <div className="promesa">
+        <h2>{cursoData?.promesa?.title}</h2>
+        <ul className="items-wrapper">
+          {cursoData?.promesa?.items.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+        <a href={cursoData?.linkPago} className="btn">
+          Inscríbete al curso
+        </a>
+      </div>
+
+
       <div className="content-container">
         <h2>Todo lo que aprenderás</h2>
         <p>Te describimos la estructura</p>
@@ -187,17 +201,7 @@ const Curso = () => {
           <p>{cursoData?.teachers?.especialidad}</p>
         </section>
       </div>
-      <div className="promesa">
-        <h2>{cursoData?.promesa?.title}</h2>
-        <ul className="items-wrapper">
-          {cursoData?.promesa?.items.map((item, i) => (
-            <li key={i}>{item}</li>
-          ))}
-        </ul>
-        <a href={cursoData?.linkPago} className="btn">
-          Inscríbete al curso
-        </a>
-      </div>
+     
     </div>
   );
 };
