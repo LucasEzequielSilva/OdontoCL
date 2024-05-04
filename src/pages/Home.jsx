@@ -71,9 +71,7 @@ const Home = () => {
                 </div>
               </div>
               <p>
-                Odonto emerge del sueño de transformar no solo la práctica
-                odontológica, sino también el horizonte educativo, donde cada
-                integrante fusiona sus fuerzas con un propósito común.{" "}
+              En nuestra academia, nos comprometemos a ser el motor que impulsa la excelencia en el campo de la salud. Nuestro propósito es claro: expandir y actualizar constantemente los conocimientos de los profesionales, dotándolos de las herramientas necesarias para potenciar su entrega y vocación al mundo. Creemos firmemente que un profesional de la salud capacitado y actualizado no solo mejora su propia práctica, sino que también eleva el estándar de atención médica para el beneficio de la sociedad en su conjunto. Únete a nosotros en este viaje hacia la excelencia y el servicio comprometido con el bienestar de todos.{" "}
               </p>
             </div>
           </section>
