@@ -129,7 +129,7 @@ const Curso = () => {
             Promo Grupal
           </a>
           <p>{cursoData?.hero?.descriptionpromo}</p>
-          <a className="btn" download href="/assets/PROTECCIÓNRADIOLÓGICA.pdf">
+          <a className="btn" download href="/assets/Programa Curso Protección Radiológica (2).pdf">
           Descargar Programa
         </a>
         </section>
