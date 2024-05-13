@@ -128,6 +128,7 @@ const Curso = () => {
           <a href={cursoData?.linkPago2} className="btn">
             Promo para dos personas
           </a>
+          <p>{cursoData?.hero?.descriptionpromo2}</p>
           <a href={cursoData?.linkPagoPromo} className="btn">
             Promo Grupal
           </a>
